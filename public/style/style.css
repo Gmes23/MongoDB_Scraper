@@ -1,0 +1,110 @@
+body {
+  background-color: white;
+ }
+ *:focus {
+     outline: none;
+ }
+
+ a, a:visited, a:hover, a:active {
+   color: white;
+   text-decoration: none;
+ }
+ @font-face {
+   font-family: Adam;
+   src: url(./ADAM.otf);
+ }
+
+ @font-face {
+   font-family: HumbleRough;
+   src: url(./HumbleRough.otf);
+ }
+
+.header{
+  text-align: center;
+  font-size: 100px;
+  font-family: 'HumbleRough';
+  margin-bottom: 100px;
+  background-color: black;
+  color: white;
+}
+
+.header>h1{
+  font-size: 70px;
+}
+
+h2{
+  float: right;
+  font-family: 'Adam';
+}
+
+.gmArticles{
+  padding-top: 50px;
+  padding-left: 100px;
+  height: 400px;
+}
+#notes{
+  position: fixed;
+  margin-top: 50px;
+  border:2px solid black;
+  width: 200px;
+  text-align: center;
+}
+#notes>h2{
+  font-size: 14px;
+}
+img{
+  width: 100%;
+  height: 340px;
+  background-size:cover;
+  background-position: center;
+}
+
+textarea, input {
+  display: block;
+  width: 100%;
+  text-decoration-style: none;
+  outline: none;
+
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+input {
+  height: 36px;
+  font-size: 24px;
+  outline: none;
+}
+textarea {
+  height: 200px;
+  outline: none;
+
+}
+
+p{
+  margin-bottom: 70px;
+}
+
+#savenote{
+  background-color: black;
+  border: black;
+  color: white;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  border: none;
+    font-family: 'Adam';
+}
+
+.websiteTake{
+  background-color: black;
+      border: black;
+      color: white;
+      /* height: 0px; */
+      text-align: center;
+      /* width: 150px; */
+      font-size: 15px;
+      padding: 15px;
+      box-shadow: 1px 1px 5px #888888;
+      border: none;
+      font-family: 'Adam';
+      margin-top: 10px;
+}
